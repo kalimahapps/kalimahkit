@@ -1,0 +1,47 @@
+{
+  "name": "kalimahkit",
+  "displayName": "KalimahKit",
+  "description": "Language agnostic collection of VSCode extensions for common development requirements",
+  "version": "1.0.0",
+  "publisher": "KalimahApps",
+  "icon": "./logo.png",
+  "galleryBanner": {
+    "color": "#2a82ba",
+    "theme": "dark"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kalimahapps/kalimahkit"
+  },
+  "scripts": {
+    "package": "vsce package"
+  },
+  "bugs": {
+    "url": "https://github.com/kalimahapps/kalimahkit/issues"
+  },
+  "engines": {
+    "vscode": "^1.76.0"
+  },
+  "keywords": [
+    "extension pack"
+  ],
+  "license": "MIT",
+  "categories": [
+    "Extension Packs"
+  ],
+  "extensionPack": [
+    "formulahendry.auto-close-tag",
+    "formulahendry.auto-rename-tag",
+    "streetsidesoftware.code-spell-checker",
+    "mikestead.dotenv",
+    "geeebe.duplicate",
+    "usernamehw.errorlens",
+    "antfu.file-nesting",
+    "GitHub.copilot",
+    "eamodio.gitlens",
+    "KalimahApps.jameel",
+    "file-icons.file-icons",
+    "DotJoshJohnson.xml",
+    "redhat.vscode-yaml"
+  ]
+}
