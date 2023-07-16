@@ -2,7 +2,7 @@
   "name": "kalimahkit",
   "displayName": "KalimahKit",
   "description": "Language agnostic collection of VSCode extensions for common development requirements",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "publisher": "KalimahApps",
   "icon": "./logo.png",
   "galleryBanner": {
@@ -40,6 +40,7 @@
     "GitHub.copilot",
     "eamodio.gitlens",
     "KalimahApps.jameel",
+    "KalimahApps.tabaqa",
     "file-icons.file-icons",
     "DotJoshJohnson.xml",
     "redhat.vscode-yaml"
