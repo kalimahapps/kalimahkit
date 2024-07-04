@@ -16,6 +16,7 @@
 	"editor.lineNumbers": "interval",
 	"search.exclude": {
 		"**/node_modules": true,
+		"**/vendor": true,
 		"**/bower_components": true,
 		"**/.git": true,
 		"**/tests": true,
@@ -25,19 +26,23 @@
 		"**/dist": true,
 		"**/build": true,
 		"**/coverage": true,
-		"**/docs": true,
+		"**/docs": true
 	},
 	"eslint.codeAction.showDocumentation": {
 		"enable": true
 	},
 	"editor.codeActionsOnSave": {
-		"source.fixAll.eslint": true
+		"source.fixAll.eslint": "explicit"
 	},
 	"eslint.validate": [
 		"javascript",
 		"javascriptreact",
 		"typescript",
-		"typescriptreact"
+		"typescriptreact",
+		"json",
+		"jsonc",
+		"json5",
+		"vue"
 	],
 	"editor.defaultFormatter": null,
 	"prettier.enable": false,
@@ -47,7 +52,7 @@
 	"search.collapseResults": "alwaysExpand",
 	"editor.formatOnType": false,
 	"editor.formatOnPaste": false,
-	"editor.formatOnSave": true,
+	"editor.formatOnSave": false,
 	"editor.autoIndent": "advanced",
 	"git.showPushSuccessNotification": true,
 	"editor.snippetSuggestions": "bottom",
@@ -88,5 +93,18 @@
 	},
 	"[scss]": {
 		"editor.defaultFormatter": "vscode.css-language-features"
+	},
+	"editor.fontFamily": "'Fira Code', Consolas, 'Courier New', monospace",
+	"terminal.integrated.fontFamily": "'Fira Code', Consolas, 'Courier New', monospace",
+	"editor.lineHeight": 30,
+	"terminal.integrated.lineHeight": 1.15,
+	"files.autoSave": "onFocusChange",
+	"editor.minimap.enabled": false,
+	"git.inputValidationLength": 100,
+	"git.inputValidationSubjectLength": 70,
+	"workbench.colorTheme": "Jameel",
+	"workbench.iconTheme": "file-icons",
+	"[php]": {
+		"editor.defaultFormatter": "KalimahApps.taqwim"
 	},
 }
