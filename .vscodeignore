@@ -1,3 +1,10 @@
-.vscode/**
-.gitignore
-.github
+# Ignore everything
+*
+*/**
+
+# Whitelist
+!package.json
+!logo.png
+!logo.svg
+!README.md
+!LICENSE
